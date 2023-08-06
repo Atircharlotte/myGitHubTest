@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+/*left side of the resume*/
+#info {
+  background-color: #688889;
+  color: white;
+  padding: 40px;
+  margin: 20px;
+}
+#info a:hover {
+  color: white;
+}
+
+#experience {
+  background-color: white;
+  color: black;
+  padding: 0px 30px 50px 30px;
+  margin: 20px;
+}
+#experience li {
+  margin: 10px;
+}
+/*right side of the resume*/
